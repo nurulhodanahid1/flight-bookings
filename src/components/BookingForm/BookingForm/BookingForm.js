@@ -43,7 +43,7 @@ const BookingForm = () => {
     return (
         <div className="booking-form">
             <h1>Flight deals with Virgin Atlantic</h1>
-            <div className="trip-type">
+            <div id="main" className="trip-type">
                 <div className="form-check">
                     <input onClick={handleOneWay} className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
                     <label className="form-check-label" htmlFor="flexRadioDefault1">One Way</label>
@@ -55,7 +55,7 @@ const BookingForm = () => {
             </div>
             <FormProvider {...methods} >
                 <Form onSubmit={methods.handleSubmit(onSubmit)} >
-                    <Row>
+                    <Row style={{marginBottom: "20px"}}>
                         <Col sm={4}><From></From></Col>
                         <Col sm={4}><To></To></Col>
                         <Col sm={4}>
