@@ -1,0 +1,11 @@
+.MuiInputBase-root{
+    width: 160px;
+    margin-left: 30px;
+}
+.time-bg{
+    background-color: #F6F8FC;
+}
+.MuiInput-root{
+    background-color: #F6F8FC;
+    padding: 10px;
+}

@@ -1,0 +1,8 @@
+.passenger-d input,
+.passenger-d button{
+    border: none;
+    background-color: #F6F8FC;
+}
+.passenger-d input{
+    margin-top: 6px;
+}

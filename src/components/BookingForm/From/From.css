@@ -1,0 +1,21 @@
+.from-to { 
+    width: 100%; 
+    padding: 12px 40px; 
+    margin: 8px 0; 
+    display: inline-block; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #959595;
+    border-radius: 0px;
+    background-color: #F6F8FC;
+}
+.font-destination {
+    position: relative;
+}
+.font-destination .icon{
+    position: absolute;
+    left: 15px;
+    top: 57px;
+    color: gray;
+}
